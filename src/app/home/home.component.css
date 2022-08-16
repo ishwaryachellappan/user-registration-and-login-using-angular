@@ -1,0 +1,73 @@
+
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+ 
+  height: 500%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn1{
+    margin-right: 50px;
+}
+
+.ds-btn li{ list-style:none; float:left; padding:10px; }
+.ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:left;}
+.ds-btn li a span small{width:100%; display:inline-block; text-align:left;}
+
+nav{
+  width: 100%;
+  
+  
+  gap:5rem;
+  color:white;
+  background-color:rgb(245, 161, 161);
+
+}
+
+
+/* 
+
+
+</head>
+<h1>Menu Application</h1>
+<nav>
+
+<ul>
+<li  [routerLink]="['/home']">home</li>
+<li [routerLink]="['/login']">Login</li>
+<li [routerLink]="['/forgetpassword']">Forget Password</li>
+</ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+ 
+h1{ 
+  color: blue;
+  padding: 5px;
+  background-color: beige;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 2rem;
+}
+li{
+  list-style:none;
+  padding: 12px;
+  width: 25%;
+  text-align: center
+}
+
+
+*/

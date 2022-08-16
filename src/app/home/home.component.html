@@ -1,0 +1,28 @@
+
+  <head>
+    <link rel="stylesheet" href="home.component.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+  <div class="container">
+    <div class="row">
+        <nav>
+<ul class="ds-btn">
+    <u> <li  [routerLink]="['/']">
+        <a class="btn btn-lg btn-primary btn1"role="button">home</a></li></u>
+       
+    <u> <li  [routerLink]="['/Login']">
+        <a class="btn btn-lg btn-primary btn1"role="button">Login</a></li></u>
+        <u> <li [routerLink]="['/signup']">
+        <a class="btn btn-lg btn-primary btn1" role="button">Signup</a></li></u>
+    </ul>
+</nav>
+</div>
+</div>
+
+    <router-outlet></router-outlet> 
+
+
+ 
